@@ -1,5 +1,5 @@
 /***************** Item Page CSS **************************/
-/*.action_container {
+/* .action_container { 
     text-decoration: none;
 }
 a.action_container:link {
@@ -84,7 +84,7 @@ a.action_container:link {
     top: -44px;
     font-weight: 700;
     cursor: pointer;
-}*/
+}*/ */
 
 * {
     margin: 0;
@@ -234,8 +234,10 @@ header {
 .items-container{
     width: 80%;
    margin: 40px 10%;
-
-
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    gap: 20px;
+    gap: 12px;
 }
 .item-container{
     width: 200px;
@@ -265,8 +267,19 @@ header {
 
 }
 .current-price{
+    font-size: 14px;
+    font-weight: 700;
 
 }
 .original-price{
+    font-weight: 400;
+    text-decoration: line-through;
+
+}
+.btn-add-bag{
+    border: solid red;
+    border-radius: 10px;
+    background-color: #f54e77;
+     font-weight: 500;
 
 }
