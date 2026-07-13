@@ -237,7 +237,7 @@ header {
     display: grid;
     grid-template-columns: repeat(4, 250px);
     gap: 20px;
-    gap: 12px;
+    
 }
 .item-container{
     width: 200px;
@@ -264,7 +264,7 @@ header {
     white-space:nowrap;
 }
 .item-name{
-
+    
 }
 .current-price{
     font-size: 14px;
@@ -273,6 +273,7 @@ header {
 }
 .original-price{
     font-weight: 400;
+    color: #7e818c;
     text-decoration: line-through;
 
 }
